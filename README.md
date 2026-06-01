@@ -23,6 +23,11 @@
 
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Guia de consegos y utilidades de yt-dlp y ffmpeg](https://blog-jorbencas.vercel.app/posts/undefined/)
+- [Post con componentes: El Atlas del Hola Mundo](https://blog-jorbencas.vercel.app/posts/undefined/)
+- [📕 Manual Maestro de Git: Flags y Comandos consolidado](https://blog-jorbencas.vercel.app/posts/undefined/)
+- [Scripts](https://blog-jorbencas.vercel.app/posts/undefined/)
+- [Reconocimiento facial](https://blog-jorbencas.vercel.app/posts/undefined/)
 <!-- BLOG-POST-LIST:END -->
 
 ---
