@@ -16,5 +16,5 @@ jobs:
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
           # CAMBIA ESTO por la URL real del RSS de tu blog Vercel
-          feed_list: "https://blog-jorbencas.vercel.app/feed.xml" 
+          feed_list: "https://blog-jorbencas.vercel.app/rss.xml" 
           max_post_count: 5
