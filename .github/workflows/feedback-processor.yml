@@ -3,7 +3,8 @@ name: Feedback Wall Processor
 on:
   issues:
     types: [opened]
-
+  workflow_dispatch: # Permite ejecutarlo manualmente cuando quieras
+  
 jobs:
   append-feedback:
     if: startsWith(github.event.issue.title, 'Feedback:')
