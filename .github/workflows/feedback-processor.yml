@@ -3,14 +3,13 @@ name: Feedback Wall Processor
 on:
   issues:
     types: [opened, edited]
-  workflow_dispatch: # Permite ejecutarlo manualmente cuando quieras
-  
+
 jobs:
   append-feedback:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-      issues: write
+      issues: write # Este permiso es correcto y obligatorio
 
     steps:
       - name: Checkout Repository
@@ -21,7 +20,6 @@ jobs:
         uses: actions/github-script@v7
         with:
           script: |
-            // Buscamos el issue de forma segura en cualquier variante del payload
             const issue = context.payload.issue;
             
             if (!issue) {
@@ -34,15 +32,14 @@ jobs:
             const body = issue.body || '';
             const labels = issue.labels ? issue.labels.map(l => l.name) : [];
 
-            // COMPROBACIÓN ROBUSTA: Si no es un issue de feedback, cancelamos
             if (!title.startsWith('Feedback:') && !labels.includes('anonymous-feedback')) {
               console.log("Este issue no es de feedback. Saltando...");
               core.setOutput("is_feedback", "false");
               return;
             }
             core.setOutput("is_feedback", "true");
+            core.setOutput("issue_number", issue.number.toString()); // Guardamos el número de forma segura
             
-            // 1. Extraer los campos usando regex simples
             const textMatch = body.match(/### Tu comentario\s+([\s\S]*?)(?=\s+###|$)/);
             const aliasMatch = body.match(/### Alias \/ Nombre \(Opcional\)\s+([\s\S]*?)(?=\s+###|$)/);
             
@@ -50,10 +47,8 @@ jobs:
             let alias = aliasMatch ? aliasMatch[1].trim() : 'Anónimo';
             if (alias === '_No response_') alias = 'Anónimo';
 
-            // Recortar a 140 caracteres por seguridad
             text = text.substring(0, 140);
 
-            // 2. Filtro básico anti-trolls
             const forbiddenWords = ['scam', 'mierda', 'idiota', 'spam', 'bot']; 
             const isTroll = forbiddenWords.some(word => text.toLowerCase().includes(word) || alias.toLowerCase().includes(word));
 
@@ -62,7 +57,6 @@ jobs:
               return;
             }
 
-            // 3. Formatear la línea de Markdown que irá al README
             const date = new Date().toLocaleDateString('es-ES', { year: 'numeric', month: 'short' });
             const feedbackLine = `> "${text}" — **${alias}** (${date})\n<br/>\n`;
             
@@ -71,26 +65,19 @@ jobs:
       - name: Inject Feedback into README
         if: success() && steps.parse.outputs.is_feedback == 'true'
         run: |
-          FEEDBACK_LINE="${{ steps.parse.outputs.line }}"
-          
-          # Usar Node.js para editar el archivo de forma segura protegiendo saltos de línea
           node -e "
             const fs = require('fs');
             let readme = fs.readFileSync('README.md', 'utf8');
             const target = '<!-- START_FEEDBACK_WALL -->';
-            
-            // Reemplazar el marcador añadiendo el nuevo feedback justo debajo
-            // Si estaba el mensaje por defecto de 'no hay comentarios', lo limpia
             readme = readme.replace('*¡Todavía no hay comentarios! Sé el primero en dejar uno arriba.*', '');
             readme = readme.replace(target, target + '\n' + process.env.NEW_LINE);
-            
             fs.writeFileSync('README.md', readme);
           "
         env:
           NEW_LINE: ${{ steps.parse.outputs.line }}
 
       - name: Commit and Push changes
-        if: success()
+        if: success() && steps.parse.outputs.is_feedback == 'true'
         run: |
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
@@ -99,21 +86,23 @@ jobs:
           git push
 
       - name: Close and Lock Issue
-        if: always()
+        if: always() && steps.parse.outputs.is_feedback == 'true'
         uses: actions/github-script@v7
         with:
           script: |
-            // Cierra el issue y lo bloquea para mantener el orden de la pestaña Issues
+            // Recuperamos el número que guardamos de forma segura en el primer paso
+            const issueNumber = parseInt('${{ steps.parse.outputs.issue_number }}');
+            
             await github.rest.issues.update({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: context.issue.number,
+              issue_number: issueNumber,
               state: 'closed',
               state_reason: 'completed'
             });
             await github.rest.issues.lock({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              issue_number: context.issue.number,
+              issue_number: issueNumber,
               lock_reason: 'resolved'
             });
