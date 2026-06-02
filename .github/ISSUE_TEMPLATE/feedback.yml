@@ -1,0 +1,24 @@
+name: "💬 Dejar Feedback Anónimo"
+description: "Escribe una reseña o comentario para mi README de forma totalmente anónima."
+title: "Feedback: [Tu Alias o Anónimo]"
+labels: ["anonymous-feedback"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### 🛡️ Muro de la Verdad
+        Gracias por tomarte el tiempo de dejar tu feedback. Sé constructivo. Máximo 140 caracteres.
+  - type: textarea
+    id: feedback_text
+    attributes:
+      label: "Tu comentario"
+      placeholder: "Jorge es un desarrollador que..."
+    validations:
+      required: true
+  - type: input
+    id: alias
+    attributes:
+      label: "Alias / Nombre (Opcional)"
+      placeholder: "Ej: CTO en EmpresaX, Ex-compañero, o déjalo en blanco para Anónimo"
+    validations:
+      required: false

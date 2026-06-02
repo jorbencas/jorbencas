@@ -2,7 +2,11 @@
 <p align="center">
   <strong>Full Stack / Frontend Developer with 5+ years of experience</strong> based in Spain.
 </p>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tu-usuario/tu-repo/main/banner-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tu-usuario/tu-repo/main/banner-light.png">
+  <img alt="Jorge's Banner" src="https://raw.githubusercontent.com/tu-usuario/tu-repo/main/banner-light.png" width="100%">
+</picture>
 <p align="center">
   <a href="https://blog-jorbencas.vercel.app/" target="_blank"><strong>🌐 Visit my Personal Blog</strong></a>
 </p>
@@ -29,6 +33,17 @@
 - [Scripts](https://blog-jorbencas.vercel.app/posts/scripts)
 - [Reconocimiento facial](https://blog-jorbencas.vercel.app/posts/face_recognition_windows_forms)
 <!-- BLOG-POST-LIST:END -->
+
+---
+
+### 🛡️ ENGINEERING PRINCIPLES
+
+```yml
+principles:
+  - Clean & Readable: "I write code for humans first, computers second. Deep believer in KISS and SOLID."
+  - Automation First: "If a manual task has to be done more than thrice, it deserves a script or a GitHub Action."
+  - Architecture Mindset: "Focus on decoupled systems, scalability, and predictable state management."
+  - Testing Culture: "A feature isn't 'done' until it's covered by meaningful unit or integration tests."
 
 ---
 
@@ -68,3 +83,11 @@
 <img src="https://github-readme-stats.vercel.app/api?username=jorbencas&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Jorge's GitHub stats" height="170" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=jorbencas&theme=tokyonight&hide_border=true" alt="Jorge's Streak" height="170" />
 </p>
+
+
+## 💬 EL MURO DE LA VERDAD (FEEDBACK ANÓNIMO)
+*¿Has trabajado conmigo o te ha servido mi contenido? [¡Déjame una reseña anónima aquí!](https://github.com/jorbencas/jorbencas/issues/new?template=feedback.yml)*
+
+<!-- START_FEEDBACK_WALL -->
+*¡Todavía no hay comentarios! Sé el primero en dejar uno arriba.*
+<!-- END_FEEDBACK_WALL -->
