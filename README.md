@@ -44,6 +44,7 @@ principles:
   - Automation First: "If a manual task has to be done more than thrice, it deserves a script or a GitHub Action."
   - Architecture Mindset: "Focus on decoupled systems, scalability, and predictable state management."
   - Testing Culture: "A feature isn't 'done' until it's covered by meaningful unit or integration tests."
+```
 
 ---
 
