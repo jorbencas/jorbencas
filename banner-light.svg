@@ -16,41 +16,46 @@
           width: 160px; height: 160px;
           margin-left: -80px; margin-top: -80px;
         }
-        .line-main { stroke: #0969da; stroke-width: 1.5; fill: none; }
-        .line-sec { stroke: #afb8c1; stroke-width: 1.2; fill: none; }
+        .line-main { stroke: #0969da; stroke-width: 1.5; fill: none; stroke-dasharray: 4 4; }
+        .line-sec { stroke: #afb8c1; stroke-width: 1.5; fill: none; }
+        .pin-active { fill: #0969da; }
       </style>
       <div class="blueprint">
-        <!-- Circuitos Esquema -->
         <svg style="position:absolute; width:100%; height:100%">
           <path d="M 0,60 L 260,60 L 300,80 L 330,80" class="line-main" />
-          <path d="M 800,130 L 540,130 L 490,110 L 470,110" class="line-main" stroke-dasharray="3 3" />
+          <path d="M 0,140 L 240,140 L 290,110 L 330,110" class="line-sec" />
+          <path d="M 800,70 L 560,70 L 510,95 L 470,95" class="line-sec" />
+          <path d="M 800,130 L 540,130 L 490,110 L 470,110" class="line-main" />
+          <circle cx="260" cy="60" r="3" class="pin-active" />
+          <circle cx="540" cy="130" r="3" class="pin-active" />
         </svg>
 
-        <!-- Vectorial mBot Esquema 3/4 -->
         <svg class="robot-isometric" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <ellipse cx="22" cy="42" rx="3" ry="8" fill="#afb8c1" />
+          <ellipse cx="22" cy="42" rx="3" ry="8" fill="#57606a" stroke="#afb8c1" transform="rotate(15 22 42)" />
           
-          <!-- Chasis Azul -->
           <path d="M 25,65 L 65,45 L 90,52 L 38,82 Z" fill="#0969da" />
           <circle cx="32" cy="74" r="2" fill="#f6f8fa" />
           <circle cx="42" cy="69" r="1.5" fill="#f6f8fa" />
+          <path d="M 52,60 L 58,57 L 58,63 L 52,66 Z" fill="#f6f8fa" /> <line x1="50" y1="52" x2="50" y2="40" stroke="#9a7b1c" stroke-width="2.5" stroke-linecap="round" />
+          <line x1="36" y1="60" x2="36" y2="46" stroke="#9a7b1c" stroke-width="2.5" stroke-linecap="round" />
 
-          <!-- Postes de Latón -->
-          <line x1="50" y1="52" x2="50" y2="40" stroke="#9a7b1c" stroke-width="2.5" />
-          <line x1="36" y1="60" x2="36" y2="46" stroke="#9a7b1c" stroke-width="2.5" />
+          <path d="M 32,44 L 68,26 L 88,34 L 46,56 Z" fill="rgba(255, 255, 255, 0.6)" stroke="#0969da" stroke-width="1.2" />
+          <rect x="42" y="36" width="6" height="5" fill="#ffd166" transform="skewY(-15)" />
+          <rect x="52" y="31" width="6" height="5" fill="#06d6a0" transform="skewY(-15)" />
+          <rect x="62" y="26" width="6" height="5" fill="#118ab2" transform="skewY(-15)" />
 
-          <!-- Cubierta Transparente -->
-          <path d="M 32,44 L 68,26 L 88,34 L 46,56 Z" fill="rgba(255, 255, 255, 0.8)" stroke="#0969da" stroke-width="1.2" />
-
-          <!-- Ojos Ultrasonido -->
           <path d="M 18,52 L 35,44 L 35,56 L 18,64 Z" fill="#24292f" />
-          <ellipse cx="22" cy="50" rx="4" ry="5" fill="#bae1ff" />
-          <ellipse cx="30" cy="46" rx="4" ry="5" fill="#bae1ff" />
+          <ellipse cx="22" cy="50" rx="4" ry="5" fill="#afb8c1" stroke="#ffffff" stroke-width="0.7" />
+          <circle cx="22" cy="50" r="1.5" fill="#24292f" />
+          <ellipse cx="30" cy="46" rx="4" ry="5" fill="#afb8c1" stroke="#ffffff" stroke-width="0.7" />
+          <circle cx="30" cy="46" r="1.5" fill="#24292f" />
 
-          <!-- Rueda Delantera Derecha -->
-          <ellipse cx="78" cy="58" rx="12" ry="24" fill="#24292f" transform="rotate(12 78 58)" />
+          <ellipse cx="78" cy="58" rx="12" ry="24" fill="#24292f" stroke="#57606a" stroke-width="1" transform="rotate(12 78 58)" />
           <ellipse cx="78" cy="58" rx="7" ry="15" fill="#ffffff" transform="rotate(12 78 58)" />
           <circle cx="78" cy="58" r="2" fill="#afb8c1" />
+          <circle cx="75" cy="50" r="1" fill="#24292f" /><circle cx="81" cy="66" r="1" fill="#24292f" />
+          
+          <rect x="25" y="75" width="8" height="4" fill="#24292f" stroke="#0969da" stroke-width="0.5" transform="rotate(-15 25 75)" />
         </svg>
       </div>
     </div>
