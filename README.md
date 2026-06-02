@@ -15,8 +15,8 @@
 - ✍️ I love sharing my technical journey and deep dives into web development on my blog.
 
 ### 🚦 CI/CD STATUS
-![Lint & Code Quality](https://github.com/jorbencas/blog/actions/workflows/linter.yml/badge.svg)
-![Automated Tests](https://github.com/jorbencas/blog/actions/workflows/tests.yml/badge.svg)
+![utomated Tests](https://github.com/jorbencas/mecano_prueba_web/actions/workflows/ci.yml/badge.svg)
+![Automated Tests](https://github.com/jorbencas/test_githubActions/actions/workflows/scraper_workflow.yml/badge.svg)
 ![Lighthouse Performance](https://img.shields.io/badge/Lighthouse_Performance-98%25-brightgreen?logo=google-lighthouse)
 
 ---
