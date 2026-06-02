@@ -1,0 +1,58 @@
+<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .blueprint {
+          background: #f6f8fa;
+          height: 198px;
+          border: 1px solid #d0d7de;
+          border-radius: 6px;
+          position: relative;
+          overflow: hidden;
+        }
+        .robot-isometric {
+          position: absolute;
+          left: 50%; top: 50%;
+          width: 160px; height: 160px;
+          margin-left: -80px; margin-top: -80px;
+        }
+        .line-main { stroke: #0969da; stroke-width: 1.5; fill: none; }
+        .line-sec { stroke: #afb8c1; stroke-width: 1.2; fill: none; }
+      </style>
+      <div class="blueprint">
+        <!-- Circuitos Esquema -->
+        <svg style="position:absolute; width:100%; height:100%">
+          <path d="M 0,60 L 260,60 L 300,80 L 330,80" class="line-main" />
+          <path d="M 800,130 L 540,130 L 490,110 L 470,110" class="line-main" stroke-dasharray="3 3" />
+        </svg>
+
+        <!-- Vectorial mBot Esquema 3/4 -->
+        <svg class="robot-isometric" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <ellipse cx="22" cy="42" rx="3" ry="8" fill="#afb8c1" />
+          
+          <!-- Chasis Azul -->
+          <path d="M 25,65 L 65,45 L 90,52 L 38,82 Z" fill="#0969da" />
+          <circle cx="32" cy="74" r="2" fill="#f6f8fa" />
+          <circle cx="42" cy="69" r="1.5" fill="#f6f8fa" />
+
+          <!-- Postes de Latón -->
+          <line x1="50" y1="52" x2="50" y2="40" stroke="#9a7b1c" stroke-width="2.5" />
+          <line x1="36" y1="60" x2="36" y2="46" stroke="#9a7b1c" stroke-width="2.5" />
+
+          <!-- Cubierta Transparente -->
+          <path d="M 32,44 L 68,26 L 88,34 L 46,56 Z" fill="rgba(255, 255, 255, 0.8)" stroke="#0969da" stroke-width="1.2" />
+
+          <!-- Ojos Ultrasonido -->
+          <path d="M 18,52 L 35,44 L 35,56 L 18,64 Z" fill="#24292f" />
+          <ellipse cx="22" cy="50" rx="4" ry="5" fill="#bae1ff" />
+          <ellipse cx="30" cy="46" rx="4" ry="5" fill="#bae1ff" />
+
+          <!-- Rueda Delantera Derecha -->
+          <ellipse cx="78" cy="58" rx="12" ry="24" fill="#24292f" transform="rotate(12 78 58)" />
+          <ellipse cx="78" cy="58" rx="7" ry="15" fill="#ffffff" transform="rotate(12 78 58)" />
+          <circle cx="78" cy="58" r="2" fill="#afb8c1" />
+        </svg>
+      </div>
+    </div>
+  </foreignObject>
+</svg>

@@ -2,11 +2,10 @@
 <p align="center">
   <strong>Full Stack / Frontend Developer with 5+ years of experience</strong> based in Spain.
 </p>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/tu-usuario/tu-repo/main/banner-dark.png">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/tu-usuario/tu-repo/main/banner-light.png">
-  <img alt="Jorge's Banner" src="https://raw.githubusercontent.com/tu-usuario/tu-repo/main/banner-light.png" width="100%">
-</picture>
+
+![Jorge's Banner](https://raw.githubusercontent.com/jorbencas/jorbencas/main/banner-light.png#gh-light-mode-only)
+![Jorge's Banner](https://raw.githubusercontent.com/jorbencas/jorbencas/main/banner-dark.png#gh-dark-mode-only)
+
 <p align="center">
   <a href="https://blog-jorbencas.vercel.app/" target="_blank"><strong>🌐 Visit my Personal Blog</strong></a>
 </p>

@@ -1,0 +1,80 @@
+<svg fill="none" viewBox="0 0 800 200" width="800" height="200" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        .pcb-board {
+          background: #0d1117;
+          height: 198px;
+          border: 1px solid #30363d;
+          border-radius: 6px;
+          position: relative;
+          overflow: hidden;
+        }
+        .robot-isometric {
+          position: absolute;
+          left: 50%; top: 50%;
+          width: 160px; height: 160px;
+          margin-left: -80px; margin-top: -80px;
+        }
+        .trace { stroke: #21262d; stroke-width: 1.5; fill: none; }
+        .trace-active { stroke: #388bfd; stroke-width: 1.5; fill: none; stroke-dasharray: 4 4; }
+        .node { fill: #58a6ff; }
+      </style>
+      <div class="pcb-board">
+        <!-- Circuitos de la placa base exterior -->
+        <svg style="position:absolute; width:100%; height:100%">
+          <path d="M 0,60 L 260,60 L 300,80 L 330,80" class="trace-active" />
+          <path d="M 0,140 L 240,140 L 290,110 L 330,110" class="trace" />
+          <path d="M 800,70 L 560,70 L 510,95 L 470,95" class="trace" />
+          <path d="M 800,130 L 540,130 L 490,110 L 470,110" class="trace-active" />
+          <circle cx="260" cy="60" r="3" class="node" />
+          <circle cx="540" cy="130" r="3" class="node" />
+        </svg>
+
+        <!-- Clon Vectorial de imagen.png (Perspectiva 3/4) -->
+        <svg class="robot-isometric" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <!-- Rueda trasera izquierda (Lejana) -->
+          <ellipse cx="22" cy="42" rx="3" ry="8" fill="#161b22" stroke="#30363d" transform="rotate(15 22 42)" />
+          
+          <!-- Chasis de Aluminio Extruido Azul (Ángulo Isométrico) -->
+          <path d="M 25,65 L 65,45 L 90,52 L 38,82 Z" fill="#388bfd" />
+          <!-- Agujeros del chasis (Muescas características del mBot) -->
+          <circle cx="32" cy="74" r="2" fill="#0d1117" />
+          <circle cx="42" cy="69" r="1.5" fill="#0d1117" />
+          <path d="M 52,60 L 58,57 L 58,63 L 52,66 Z" fill="#0d1117" /> <!-- La 'M' troquelada lateral -->
+
+          <!-- Postes de Latón Dorados (Soportes de la placa) -->
+          <line x1="50" y1="52" x2="50" y2="40" stroke="#d4af37" stroke-width="2.5" stroke-linecap="round" />
+          <line x1="36" y1="60" x2="36" y2="46" stroke="#d4af37" stroke-width="2.5" stroke-linecap="round" />
+
+          <!-- Carcasa superior Transparente / Placa Controladora -->
+          <path d="M 32,44 L 68,26 L 88,34 L 46,56 Z" fill="rgba(48, 54, 61, 0.7)" stroke="#58a6ff" stroke-width="1" />
+          <!-- Sensores/Puertos internos de colores visibles por transparencia -->
+          <rect x="42" y="36" width="6" height="5" fill="#ffd166" transform="skewY(-15)" />
+          <rect x="52" y="31" width="6" height="5" fill="#06d6a0" transform="skewY(-15)" />
+          <rect x="62" y="26" width="6" height="5" fill="#118ab2" transform="skewY(-15)" />
+
+          <!-- Sensor de Ultrasonidos Frontal ("Ojos" saltones metálicos) -->
+          <path d="M 18,52 L 35,44 L 35,56 L 18,64 Z" fill="#21262d" stroke="#30363d" />
+          <!-- Cilindro izquierdo del ojo -->
+          <ellipse cx="22" cy="50" rx="4" ry="5" fill="#8b949e" stroke="#f0f6fc" stroke-width="0.7" />
+          <circle cx="22" cy="50" r="1.5" fill="#161b22" />
+          <!-- Cilindro derecho del ojo -->
+          <ellipse cx="30" cy="46" rx="4" ry="5" fill="#8b949e" stroke="#f0f6fc" stroke-width="0.7" />
+          <circle cx="30" cy="46" r="1.5" fill="#161b22" />
+
+          <!-- Rueda Delantera Derecha en Primer Plano (Enorme y detallada) -->
+          <ellipse cx="78" cy="58" rx="12" ry="24" fill="#161b22" stroke="#30363d" stroke-width="1" transform="rotate(12 78 58)" />
+          <!-- Llanta blanca con patrón de radios estrellados -->
+          <ellipse cx="78" cy="58" rx="7" ry="15" fill="#f0f6fc" transform="rotate(12 78 58)" />
+          <circle cx="78" cy="58" r="2" fill="#8b949e" />
+          <!-- Pequeños orificios de la llanta real -->
+          <circle cx="75" cy="50" r="1" fill="#161b22" /><circle cx="81" cy="66" r="1" fill="#161b22" />
+          
+          <!-- Sensor sigue-líneas inferior (Colgando abajo) -->
+          <rect x="25" y="75" width="8" height="4" fill="#161b22" stroke="#58a6ff" stroke-width="0.5" transform="rotate(-15 25 75)" />
+        </svg>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
