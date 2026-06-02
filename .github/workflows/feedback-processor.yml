@@ -6,7 +6,7 @@ on:
 
 jobs:
   append-feedback:
-    if: contains(github.event.issue.labels.*.name, 'anonymous-feedback')
+    if: startsWith(github.event.issue.title, 'Feedback:')
     runs-on: ubuntu-latest
     permissions:
       contents: write

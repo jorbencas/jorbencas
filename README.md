@@ -90,5 +90,4 @@ principles:
 *¿Has trabajado conmigo o te ha servido mi contenido? [¡Déjame una reseña anónima aquí!](https://github.com/jorbencas/jorbencas/issues/new?template=feedback.yml)*
 
 <!-- START_FEEDBACK_WALL -->
-*¡Todavía no hay comentarios! Sé el primero en dejar uno arriba.*
 <!-- END_FEEDBACK_WALL -->
