@@ -2,12 +2,11 @@ name: Feedback Wall Processor
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
   workflow_dispatch: # Permite ejecutarlo manualmente cuando quieras
   
 jobs:
   append-feedback:
-    if: startsWith(github.event.issue.title, 'Feedback:')
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -51,7 +50,7 @@ jobs:
             core.setOutput("line", feedbackLine);
 
       - name: Inject Feedback into README
-        if: success()
+        if: success() && steps.parse.outputs.is_feedback == 'true'
         run: |
           FEEDBACK_LINE="${{ steps.parse.outputs.line }}"
           
