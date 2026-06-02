@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Jorge Beneyto Castelló</h1>
 <p align="center">
-  <strong>Full Stack / Frontend Developer with 5+ years of experience</strong> based in Spain.
+  <strong>Full Stack / Frontend Developer.</strong> based in Spain.
 </p>
 
 <picture>
