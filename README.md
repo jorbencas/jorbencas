@@ -4,8 +4,8 @@
 </p>
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jorbencas/jorbencas/main/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jorbencas/jorbencas/main/banner-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jorbencas/jorbencas/master/banner-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jorbencas/jorbencas/master/banner-light.svg">
   <img alt="Jorge's mBot Banner" src="https://raw.githubusercontent.com/jorbencas/jorbencas/main/banner-light.svg" width="100%">
 </picture>
 
