@@ -3,7 +3,7 @@ name: Feedback Wall Processor
 on:
   issues:
     types: [opened, edited]
-    workflow_dispatch:
+  workflow_dispatch:
 jobs:
   append-feedback:
     runs-on: ubuntu-latest
