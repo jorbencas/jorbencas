@@ -3,8 +3,11 @@
   <strong>Full Stack / Frontend Developer with 5+ years of experience</strong> based in Spain.
 </p>
 
-![Jorge's Banner](https://raw.githubusercontent.com/jorbencas/jorbencas/main/banner-light.png#gh-light-mode-only)
-![Jorge's Banner](https://raw.githubusercontent.com/jorbencas/jorbencas/main/banner-dark.png#gh-dark-mode-only)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jorbencas/jorbencas/main/banner-dark.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jorbencas/jorbencas/main/banner-light.png">
+  <img alt="Jorge's mBot Banner" src="https://raw.githubusercontent.com/jorbencas/jorbencas/main/banner-light.png" width="100%">
+</picture>
 
 <p align="center">
   <a href="https://blog-jorbencas.vercel.app/" target="_blank"><strong>🌐 Visit my Personal Blog</strong></a>
