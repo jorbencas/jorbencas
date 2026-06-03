@@ -82,7 +82,7 @@ principles:
 
 ### 📊 Engine Stats
 <p align="center">
-<img src="https://github-readme-stats.vercel.app/api?username=jorbencas&show_icons=true&theme=tokyonight&count_private=true&hide_border=true" alt="Jorge's GitHub stats" height="170" />
+  ![Jorge's GitHub stats](https://github-readme-stats.vercel.app/api?username=jorbencas&show_icons=true&theme=tokyonight&count_private=true&hide_border=true)
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=jorbencas&theme=tokyonight&hide_border=true" alt="Jorge's Streak" height="170" />
 </p>
 
