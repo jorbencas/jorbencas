@@ -29,11 +29,11 @@
 
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Scripting Avanzado en Python: Automatización de XML Genérico y Autoinstalable](https://blog-jorbencas.vercel.app/posts/generar_xml_python)
 - [Guia de consegos y utilidades de yt-dlp y ffmpeg](https://blog-jorbencas.vercel.app/posts/guia_ffmpeg_y_%C3%BFt_dlp)
 - [Post con componentes: El Atlas del Hola Mundo](https://blog-jorbencas.vercel.app/posts/hola)
 - [📕 Manual Maestro de Git: Flags y Comandos consolidado](https://blog-jorbencas.vercel.app/posts/git_comandos_flags)
 - [Scripts](https://blog-jorbencas.vercel.app/posts/scripts)
-- [Reconocimiento facial](https://blog-jorbencas.vercel.app/posts/face_recognition_windows_forms)
 <!-- BLOG-POST-LIST:END -->
 
 ---
