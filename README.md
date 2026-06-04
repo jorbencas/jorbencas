@@ -57,7 +57,7 @@ principles:
       <strong>Frontend</strong><br/><br/>
       <a href="https://github.com/jorbencas?tab=repositories&q=typescript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="22" height="22"/></a> TypeScript<br/>
       <a href="https://github.com/jorbencas?tab=repositories&q=react"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="22" height="22"/></a> React / React Native<br/>
-      <a href="https://github.com/jorbencas?tab=repositories&q=angular"><img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="22" height="22"/></a> Angular<br/>
+      <a href="https://github.com/jorbencas?tab=repositories&q=angular"><img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="22" height="22"/> Angular<br/></a>
       <a href="https://github.com/jorbencas?tab=repositories&q=vuejs"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="vuejs" width="22" height="22"/></a> Vue.js<br/>
       <a href="https://github.com/jorbencas?tab=repositories&q=tailwindcss"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="22" height="22"/></a> Tailwind CSS
     </td>
