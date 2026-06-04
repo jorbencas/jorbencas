@@ -51,32 +51,13 @@ principles:
 
 ### 💻 Tech Stack & Tools
 
-<table>
-  <tr>
-    <td valign="top" width="33%">
-      <strong>Frontend</strong><br/><br/>
-      <a href="https://github.com/jorbencas?tab=repositories&q=typescript"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="22" height="22"/></a> TypeScript<br/>
-      <a href="https://github.com/jorbencas?tab=repositories&q=react"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="react" width="22" height="22"/></a> React / React Native<br/>
-      <a href="https://github.com/jorbencas?tab=repositories&q=angular"><img src="https://angular.io/assets/images/logos/angular/angular.svg" alt="angular" width="22" height="22"/> Angular<br/></a>
-      <a href="https://github.com/jorbencas?tab=repositories&q=vuejs"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" alt="vuejs" width="22" height="22"/></a> Vue.js<br/>
-      <a href="https://github.com/jorbencas?tab=repositories&q=tailwindcss"><img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" alt="tailwind" width="22" height="22"/></a> Tailwind CSS
-    </td>
-    <td valign="top" width="33%">
-      <strong>Backend & Databases</strong><br/><br/>
-      <a href="https://github.com/jorbencas?tab=repositories&q=nodejs"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="nodejs" width="22" height="22"/></a> Node.js (Express)<br/>
-      <a href="https://github.com/jorbencas?tab=repositories&q=postgresql"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" alt="postgresql" width="22" height="22"/></a> PostgreSQL<br/>
-      <a href="https://github.com/jorbencas?tab=repositories&q=mongodb"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="mongodb" width="22" height="22"/></a> MongoDB<br/>
-      <a href="https://github.com/jorbencas?tab=repositories&q=csharp"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" alt="csharp" width="22" height="22"/></a> C# (.NET)
-    </td>
-    <td valign="top" width="33%">
-      <strong>DevOps & Testing</strong><br/><br/>
-      <a href="https://github.com/jorbencas?tab=repositories&q=docker"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="docker" width="22" height="22"/></a> Docker<br/>
-      <a href="https://github.com/jorbencas?tab=repositories&q=jest"><img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" alt="jest" width="22" height="22"/></a> Jest<br/>
-      <a href="https://github.com/jorbencas?tab=repositories&q=github-actions"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="22" height="22"/></a> Git & GitHub Actions<br/>
-      <a href="https://github.com/jorbencas?tab=repositories&q=linux"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="22" height="22"/></a> Linux
-    </td>
-  </tr>
-</table>
+| Frontend | Backend & Databases | DevOps & Testing |
+| :--- | :--- | :--- |
+| [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="22" height="22" valign="middle"/> TypeScript](https://github.com/jorbencas?tab=repositories&q=typescript) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="22" height="22" valign="middle"/> Node.js (Express)](https://github.com/jorbencas?tab=repositories&q=nodejs) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="22" height="22" valign="middle"/> Docker](https://github.com/jorbencas?tab=repositories&q=docker) |
+| [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="22" height="22" valign="middle"/> React / React Native](https://github.com/jorbencas?tab=repositories&q=react) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="22" height="22" valign="middle"/> PostgreSQL](https://github.com/jorbencas?tab=repositories&q=postgresql) | [<img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" width="22" height="22" valign="middle"/> Jest](https://github.com/jorbencas?tab=repositories&q=jest) |
+| [<img src="https://angular.io/assets/images/logos/angular/angular.svg" width="22" height="22" valign="middle"/> Angular](https://github.com/jorbencas?tab=repositories&q=angular) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="22" height="22" valign="middle"/> MongoDB](https://github.com/jorbencas?tab=repositories&q=mongodb) | [<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="22" height="22" valign="middle"/> Git & Actions](https://github.com/jorbencas?tab=repositories&q=github-actions) |
+| [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" width="22" height="22" valign="middle"/> Vue.js](https://github.com/jorbencas?tab=repositories&q=vuejs) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="22" height="22" valign="middle"/> C# (.NET)](https://github.com/jorbencas?tab=repositories&q=csharp) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="22" height="22" valign="middle"/> Linux](https://github.com/jorbencas?tab=repositories&q=linux) |
+| [<img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="22" height="22" valign="middle"/> Tailwind CSS](https://github.com/jorbencas?tab=repositories&q=tailwindcss) | | |
 
 ---
 
