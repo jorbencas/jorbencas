@@ -28,11 +28,11 @@
 
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Proyectos para el verano](https://blog-jorbencas.vercel.app/posts/plan_de_verano)
+- [De Script a Infraestructura: Guía Completa de Integración de IA con Docker, MongoDB y Odoo](https://blog-jorbencas.vercel.app/posts/plan_de_verano_introducci%C3%B3n)
 - [Construyendo PDF Ninja: Cómo vencí las restricciones de PDFs con Python y la Terminal](https://blog-jorbencas.vercel.app/posts/pdf_ninja)
 - [Cómo construí un porfolio ultra rápido con HTML semántico y optimización avanzada](https://blog-jorbencas.vercel.app/posts/creacion-porfolio-optimizado)
 - [Scripting Avanzado en Python: Automatización de XML Genérico y Autoinstalable](https://blog-jorbencas.vercel.app/posts/generar_xml_python)
-- [Guia de consegos y utilidades de yt-dlp y ffmpeg](https://blog-jorbencas.vercel.app/posts/guia_ffmpeg_y_%C3%BFt_dlp)
-- [Post con componentes: El Atlas del Hola Mundo](https://blog-jorbencas.vercel.app/posts/hola)
 <!-- BLOG-POST-LIST:END -->
 
 ---
