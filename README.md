@@ -28,11 +28,11 @@
 
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [WSL: Instalación, configuración symlink y Docker Desktop](https://blog-jorbencas.vercel.app/posts/guia-wsl-instalacion-configuracion-docker)
+- [n8n: Automatización Visual para Integraciones Técnicas](https://blog-jorbencas.vercel.app/posts/n8n)
 - [Proyectos para el verano](https://blog-jorbencas.vercel.app/posts/plan_de_verano)
 - [De Script a Infraestructura: Guía Completa de Integración de IA con Docker, MongoDB y Odoo](https://blog-jorbencas.vercel.app/posts/plan_de_verano_introducci%C3%B3n)
 - [Construyendo PDF Ninja: Cómo vencí las restricciones de PDFs con Python y la Terminal](https://blog-jorbencas.vercel.app/posts/pdf_ninja)
-- [Cómo construí un porfolio ultra rápido con HTML semántico y optimización avanzada](https://blog-jorbencas.vercel.app/posts/creacion-porfolio-optimizado)
-- [Scripting Avanzado en Python: Automatización de XML Genérico y Autoinstalable](https://blog-jorbencas.vercel.app/posts/generar_xml_python)
 <!-- BLOG-POST-LIST:END -->
 
 ---
