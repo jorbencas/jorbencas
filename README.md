@@ -21,8 +21,13 @@
 - ✍️ I love sharing my technical journey and deep dives into web development on my blog.
 
 ### 🚦 CI/CD STATUS
-![Automated Tests](https://github.com/jorbencas/test_githubActions/actions/workflows/scraper_workflow.yml/badge.svg)
-![Lighthouse Performance](https://img.shields.io/badge/Lighthouse_Performance-98%25-brightgreen?logo=google-lighthouse)
+
+![Scraper](https://img.shields.io/github/actions/workflow/status/jorbencas/test_githubActions/scraper_workflow.yml?branch=master&style=flat-square&label=Scraper&logo=github)
+![Tests](https://img.shields.io/github/actions/workflow/status/jorbencas/test_githubActions/tests.yml?branch=master&style=flat-square&label=Tests&logo=github)
+![Telegram](https://img.shields.io/github/actions/workflow/status/jorbencas/test_githubActions/send_telegram_workflow.yml?branch=master&style=flat-square&label=Telegram&logo=github)
+![Optimize](https://img.shields.io/github/actions/workflow/status/jorbencas/test_githubActions/optimize_images.yml?branch=master&style=flat-square&label=Optimize&logo=github)
+![Trends](https://img.shields.io/github/actions/workflow/status/jorbencas/test_githubActions/trends_workflow.yml?branch=master&style=flat-square&label=Trends&logo=github)
+![Email](https://img.shields.io/github/actions/workflow/status/jorbencas/test_githubActions/send_email_workflow.yml?branch=master&style=flat-square&label=Email&logo=github)
 
 ---
 
