@@ -32,11 +32,11 @@
 
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Docker: Instalación, primeros pasos y containerizar tu proyecto](https://blog-jorbencas.vercel.app/posts/docker-instalacion-primeros-pasos)
 - [Comandos de Terminal que Uso &lpar;y Casi Nadie Conoce&rpar;](https://blog-jorbencas.vercel.app/posts/comandos-utiles-terminal)
-- [WSL: Instalación, configuración symlink y Docker Desktop](https://blog-jorbencas.vercel.app/posts/guia-wsl-instalacion-configuracion-docker)
-- [n8n: Automatización Visual para Integraciones Técnicas](https://blog-jorbencas.vercel.app/posts/n8n)
-- [Proyectos para el verano](https://blog-jorbencas.vercel.app/posts/plan_de_verano)
-- [De Script a Infraestructura: Guía Completa de Integración de IA con Docker, MongoDB y Odoo](https://blog-jorbencas.vercel.app/posts/plan_de_verano_introducci%C3%B3n)
+- [Weekly Tech Recap W27](https://blog-jorbencas.vercel.app/weekly/2026-w27-tech-recap)
+- [🏆 RETO: Reto Avanzado 01: Árboles Binarios de Búsqueda](https://blog-jorbencas.vercel.app/retos/reto-avanzado-01-arboles-binarios-de-busqueda)
+- [🏆 RETO: Reto Avanzado 02: Grafos &lpar;BFS/DFS&rpar;](https://blog-jorbencas.vercel.app/retos/reto-avanzado-02-grafos-bfs-dfs)
 <!-- BLOG-POST-LIST:END -->
 
 ---
