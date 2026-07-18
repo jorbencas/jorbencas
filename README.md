@@ -32,7 +32,7 @@
 
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- [Docker: Instalación, de ffmpeg y  yt-dlp en windows usando wsl](https://blog-jorbencas.vercel.app/posts/docker-to-yt-ffmpeg_in-wls)
+- [Docker: ffmpeg y yt-dlp en Windows &lpar;WSL&rpar; y Ubuntu](https://blog-jorbencas.vercel.app/posts/docker-to-yt-ffmpeg_in-wls)
 - [Docker: Instalación, primeros pasos y containerizar tu proyecto](https://blog-jorbencas.vercel.app/posts/docker-instalacion-primeros-pasos)
 - [Comandos de Terminal que Uso &lpar;y Casi Nadie Conoce&rpar;](https://blog-jorbencas.vercel.app/posts/comandos-utiles-terminal)
 - [🏆 RETO: Reto Avanzado 01: Árboles Binarios de Búsqueda](https://blog-jorbencas.vercel.app/retos/reto-avanzado-01-arboles-binarios-de-busqueda)
