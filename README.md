@@ -34,9 +34,9 @@
 <!-- BLOG-POST-LIST:START -->
 - [Juegos Lógicos — 5 retos mentales en el navegador](https://blog-jorbencas.vercel.app/herramientas/juegos-logicos)
 - [3 en Raya — Tic-Tac-Toe con IA](https://blog-jorbencas.vercel.app/herramientas/tic-tac-toe)
-- [Weekly Tech Recap W30](https://blog-jorbencas.vercel.app/weekly/2026-w30-tech-recap)
-- [Weekly Tech Recap W29](https://blog-jorbencas.vercel.app/weekly/2026-w29-tech-recap)
 - [Docker: ffmpeg y yt-dlp en Windows &lpar;WSL&rpar; y Ubuntu](https://blog-jorbencas.vercel.app/posts/docker-to-yt-ffmpeg_in-wls)
+- [Docker: Instalación, primeros pasos y containerizar tu proyecto](https://blog-jorbencas.vercel.app/posts/docker-instalacion-primeros-pasos)
+- [Comandos de Terminal que Uso &lpar;y Casi Nadie Conoce&rpar;](https://blog-jorbencas.vercel.app/posts/comandos-utiles-terminal)
 <!-- BLOG-POST-LIST:END -->
 
 ---
