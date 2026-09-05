@@ -32,11 +32,11 @@
 
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- [IA y Markdown: Cómo Configurar Agents, Skills y Prompts con el Lenguaje Universal](https://blog-jorbencas.vercel.app/posts/ia-markdown-configuracion)
-- [Simon Dice — Juego de Memoria con Colores](https://blog-jorbencas.vercel.app/herramientas/simon-says)
-- [Juegos Lógicos — 5 retos mentales en el navegador](https://blog-jorbencas.vercel.app/herramientas/juegos-logicos)
-- [3 en Raya — Tic-Tac-Toe con IA](https://blog-jorbencas.vercel.app/herramientas/tic-tac-toe)
-- [Docker: ffmpeg y yt-dlp en Windows &lpar;WSL&rpar; y Ubuntu](https://blog-jorbencas.vercel.app/posts/docker-to-yt-ffmpeg_in-wls)
+- [Instalación del Ecosistema Devjobs: Pipeline Completo desde Cero](https://blog-jorbencas.vercel.app/posts/instalacion-devjobs)
+- [Instalación de FFmpeg + yt-dlp: Conversor de Vídeo y Pipeline de Compresión](https://blog-jorbencas.vercel.app/posts/instalacion-ffmpeg)
+- [Instalación de Tech Pulse: Dashboard de Noticias Tech con IA](https://blog-jorbencas.vercel.app/posts/instalacion-tech-pulse)
+- [Instalación de Telegram Toolbox: Bot, Uploader y Descargador Masivo](https://blog-jorbencas.vercel.app/posts/instalacion-telegram)
+- [Test Degradado - Verificación de Imágenes](https://blog-jorbencas.vercel.app/posts/test-gradient)
 <!-- BLOG-POST-LIST:END -->
 
 ---
