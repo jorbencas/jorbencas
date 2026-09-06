@@ -36,7 +36,7 @@
 - [Instalación de FFmpeg + yt-dlp: Conversor de Vídeo y Pipeline de Compresión](https://blog-jorbencas.vercel.app/posts/instalacion-ffmpeg)
 - [Instalación de Tech Pulse: Dashboard de Noticias Tech con IA](https://blog-jorbencas.vercel.app/posts/instalacion-tech-pulse)
 - [Instalación de Telegram Toolbox: Bot, Uploader y Descargador Masivo](https://blog-jorbencas.vercel.app/posts/instalacion-telegram)
-- [Test Degradado - Verificación de Imágenes](https://blog-jorbencas.vercel.app/posts/test-gradient)
+- [IA y Markdown: Cómo Configurar Agents, Skills y Prompts con el Lenguaje Universal](https://blog-jorbencas.vercel.app/posts/ia-markdown-configuracion)
 <!-- BLOG-POST-LIST:END -->
 
 ---
