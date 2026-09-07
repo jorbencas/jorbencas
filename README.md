@@ -32,11 +32,11 @@
 
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [Inteligencia Artificial a nivel técnico: de los tokens al RAG, pasando por los LLM](https://blog-jorbencas.vercel.app/posts/fundamentos_de_ia_tecnica)
 - [Instalación del Ecosistema Devjobs: Pipeline Completo desde Cero](https://blog-jorbencas.vercel.app/posts/instalacion-devjobs)
 - [Instalación de FFmpeg + yt-dlp: Conversor de Vídeo y Pipeline de Compresión](https://blog-jorbencas.vercel.app/posts/instalacion-ffmpeg)
 - [Instalación de Tech Pulse: Dashboard de Noticias Tech con IA](https://blog-jorbencas.vercel.app/posts/instalacion-tech-pulse)
 - [Instalación de Telegram Toolbox: Bot, Uploader y Descargador Masivo](https://blog-jorbencas.vercel.app/posts/instalacion-telegram)
-- [IA y Markdown: Cómo Configurar Agents, Skills y Prompts con el Lenguaje Universal](https://blog-jorbencas.vercel.app/posts/ia-markdown-configuracion)
 <!-- BLOG-POST-LIST:END -->
 
 ---
