@@ -1,9 +1,8 @@
 name: Update README with Blog Posts
 on:
   schedule:
-    # Se ejecuta automáticamente todos los días a las 00:00
     - cron: '0 0 * * *'
-  workflow_dispatch: # Permite ejecutarlo manualmente cuando quieras
+  workflow_dispatch:
 
 jobs:
   update-readme:
@@ -12,11 +11,13 @@ jobs:
       contents: write
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Pull RSS Feed
         uses: gautamkrishnar/blog-post-workflow@v1
         with:
-          # CAMBIA ESTO por la URL real del RSS de tu blog Vercel
-          feed_list: "https://blog-jorbencas.vercel.app/rss.xml" 
+          feed_list: "https://blog-jorbencas.vercel.app/rss.xml"
           max_post_count: 5
+          commit_message: "[blog] update latest blog posts in README"
+          committer_name: "GitHub Actions"
+          committer_email: "actions@github.com"
