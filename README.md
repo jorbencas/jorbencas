@@ -39,17 +39,6 @@
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🎬 Netflix Anime</h3>
-      <p>Full-stack anime streaming platform with real-time chat, episode management, and media streaming. Built with Next.js + Express + PostgreSQL + Socket.IO.</p>
-      <p>
-        <img src="https://img.shields.io/badge/Next.js-black?logo=next.js" alt="Next.js">
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript" alt="TypeScript">
-        <img src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma" alt="Prisma">
-        <img src="https://img.shields.io/badge/Socket.IO-010101?logo=socket.io" alt="Socket.IO">
-      </p>
-      <p><a href="https://github.com/jorbencas/Netflix_Anime">Frontend</a> · <a href="https://github.com/jorbencas/Netflix_Anime_Api">Backend API</a></p>
-    </td>
-    <td width="50%" valign="top">
       <h3>📡 Tech Pulse Dashboard</h3>
       <p>AI-powered news automation system: scrapes 500+ sources, generates summaries with Gemini, deploys interactive dashboard + Telegram notifications + email newsletters.</p>
       <p>
@@ -60,8 +49,6 @@
       </p>
       <p><a href="https://github.com/jorbencas/test_githubActions">Repository</a> · <a href="https://jorbencasdownloaderdocument.surge.sh">Live Dashboard</a></p>
     </td>
-  </tr>
-  <tr>
     <td width="50%" valign="top">
       <h3>🎥 DevJobs Pipeline</h3>
       <p>Automated video pipeline: Twitch/YouTube/Kick stream recording → FFmpeg compression → Telegram upload. 6 Docker containers, cron scheduling, auto-cleanup.</p>
@@ -73,7 +60,9 @@
       </p>
       <p><a href="https://github.com/jorbencas/devjobs">Repository</a> · <a href="https://blog-jorbencas.vercel.app/posts/instalacion-devjobs">Documentation</a></p>
     </td>
-    <td width="50%" valign="top">
+  </tr>
+  <tr>
+    <td colspan="2" width="100%" valign="top">
       <h3>📰 Blog & Content</h3>
       <p>Technical blog with 50+ guides on Docker, FFmpeg, Python, AI, and more. Built with Astro, deployed on Vercel. All posts written step by step.</p>
       <p>
