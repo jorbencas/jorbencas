@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm Jorge Beneyto Castelló</h1>
 <p align="center">
-  <strong>Full Stack Developer.</strong> based in Spain.
+  <strong>Full Stack Developer</strong> specialising in video pipelines, AI automation & real-time systems
 </p>
 
 <picture>
@@ -16,9 +16,13 @@
 ---
 
 ### 🧠 About Me
-- 💼 Currently building high-performance web applications and optimising architectures.
-- 🛠️ Deep focus on writing clean, scalable code and automating development workflows.
-- ✍️ I love sharing my technical journey and deep dives into web development on my blog.
+
+- 🎬 Built an automated video pipeline processing **160+ YouTube channels** and **Twitch streams**, converting and uploading to Telegram with zero manual intervention.
+- 📰 Engineered a **AI-powered news system** scraping **500+ sources** (YouTube, RSS, GitHub, Product Hunt), generating summaries with Gemini API and distributing via Telegram + email.
+- 🤖 Created a **Telegram bot** with yt-dlp integration, HLS fallback, and real-time AI content generation (tips, tools, news).
+- 🎓 I share everything I learn on my [blog](https://blog-jorbencas.vercel.app/) — detailed guides written step by step.
+
+---
 
 ### 🚦 CI/CD STATUS
 
@@ -27,6 +31,83 @@
 ![Telegram](https://img.shields.io/github/actions/workflow/status/jorbencas/test_githubActions/send_telegram_workflow.yml?branch=master&style=flat-square&label=Telegram&logo=github)
 ![Optimize](https://img.shields.io/github/actions/workflow/status/jorbencas/test_githubActions/optimize_images.yml?branch=master&style=flat-square&label=Optimize&logo=github)
 ![Email](https://img.shields.io/github/actions/workflow/status/jorbencas/test_githubActions/send_email_workflow.yml?branch=master&style=flat-square&label=Email&logo=github)
+
+---
+
+### 🎯 Featured Projects
+
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎬 Netflix Anime</h3>
+      <p>Full-stack anime streaming platform with real-time chat, episode management, and media streaming. Built with Next.js + Express + PostgreSQL + Socket.IO.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Next.js-black?logo=next.js" alt="Next.js">
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript" alt="TypeScript">
+        <img src="https://img.shields.io/badge/Prisma-2D3748?logo=prisma" alt="Prisma">
+        <img src="https://img.shields.io/badge/Socket.IO-010101?logo=socket.io" alt="Socket.IO">
+      </p>
+      <p><a href="https://github.com/jorbencas/Netflix_Anime">Frontend</a> · <a href="https://github.com/jorbencas/Netflix_Anime_Api">Backend API</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📡 Tech Pulse Dashboard</h3>
+      <p>AI-powered news automation system: scrapes 500+ sources, generates summaries with Gemini, deploys interactive dashboard + Telegram notifications + email newsletters.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Python-3776AB?logo=python" alt="Python">
+        <img src="https://img.shields.io/badge/Gemini-4285F4?logo=google" alt="Gemini">
+        <img src="https://img.shields.io/badge/Telegram-26A5E4?logo=telegram" alt="Telegram">
+        <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?logo=github-actions" alt="GitHub Actions">
+      </p>
+      <p><a href="https://github.com/jorbencas/test_githubActions">Repository</a> · <a href="https://jorbencasdownloaderdocument.surge.sh">Live Dashboard</a></p>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3>🎥 DevJobs Pipeline</h3>
+      <p>Automated video pipeline: Twitch/YouTube/Kick stream recording → FFmpeg compression → Telegram upload. 6 Docker containers, cron scheduling, auto-cleanup.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker" alt="Docker">
+        <img src="https://img.shields.io/badge/FFmpeg-007808?logo=ffmpeg" alt="FFmpeg">
+        <img src="https://img.shields.io/badge/yt-dlp-FF0000?logo=youtube" alt="yt-dlp">
+        <img src="https://img.shields.io/badge/Python-3776AB?logo=python" alt="Python">
+      </p>
+      <p><a href="https://github.com/jorbencas/devjobs">Repository</a> · <a href="https://blog-jorbencas.vercel.app/posts/instalacion-devjobs">Documentation</a></p>
+    </td>
+    <td width="50%" valign="top">
+      <h3>📰 Blog & Content</h3>
+      <p>Technical blog with 50+ guides on Docker, FFmpeg, Python, AI, and more. Built with Astro, deployed on Vercel. All posts written step by step.</p>
+      <p>
+        <img src="https://img.shields.io/badge/Astro-FF5D01?logo=astro" alt="Astro">
+        <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel" alt="Vercel">
+      </p>
+      <p><a href="https://blog-jorbencas.vercel.app/">Visit Blog</a></p>
+    </td>
+  </tr>
+</table>
+
+---
+
+### 🛡️ Engineering Principles
+
+```yml
+principles:
+  - Clean & Readable: "I write code for humans first, computers second. Deep believer in KISS and SOLID."
+  - Automation First: "If a manual task has to be done more than thrice, it deserves a script or a GitHub Action."
+  - Architecture Mindset: "Focus on decoupled systems, scalability, and predictable state management."
+  - Testing Culture: "A feature isn't 'done' until it's covered by meaningful unit or integration tests."
+```
+
+---
+
+### 💻 Tech Stack & Tools
+
+| Frontend | Backend & Databases | DevOps & Tools |
+| :--- | :--- | :--- |
+| [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="22" height="22" valign="middle"/> TypeScript](https://github.com/jorbencas?tab=repositories&q=typescript) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="22" height="22" valign="middle"/> Node.js (Express)](https://github.com/jorbencas?tab=repositories&q=nodejs) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="22" height="22" valign="middle"/> Docker](https://github.com/jorbencas?tab=repositories&q=docker) |
+| [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="22" height="22" valign="middle"/> React / React Native](https://github.com/jorbencas?tab=repositories&q=react) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" width="22" height="22" valign="middle"/> Python](https://github.com/jorbencas?tab=repositories&q=python) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="22" height="22" valign="middle"/> Linux](https://github.com/jorbencas?tab=repositories&q=linux) |
+| [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" width="22" height="22" valign="middle"/> Vue.js](https://github.com/jorbencas?tab=repositories&q=vuejs) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="22" height="22" valign="middle"/> PostgreSQL](https://github.com/jorbencas?tab=repositories&q=postgresql) | [<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="22" height="22" valign="middle"/> Git & Actions](https://github.com/jorbencas?tab=repositories&q=github-actions) |
+| [<img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="22" height="22" valign="middle"/> Tailwind CSS](https://github.com/jorbencas?tab=repositories&q=tailwindcss) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/prisma/prisma-original.svg" width="22" height="22" valign="middle"/> Prisma](https://github.com/jorbencas?tab=repositories&q=prisma) | [<img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" width="22" height="22" valign="middle"/> Jest](https://github.com/jorbencas?tab=repositories&q=jest) |
+| | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/socketio/socketio-original.svg" width="22" height="22" valign="middle"/> Socket.IO](https://github.com/jorbencas?tab=repositories&q=socketio) | |
 
 ---
 
@@ -41,33 +122,32 @@
 
 ---
 
-### 🛡️ ENGINEERING PRINCIPLES
+### 📊 GitHub Stats
 
-```yml
-principles:
-  - Clean & Readable: "I write code for humans first, computers second. Deep believer in KISS and SOLID."
-  - Automation First: "If a manual task has to be done more than thrice, it deserves a script or a GitHub Action."
-  - Architecture Mindset: "Focus on decoupled systems, scalability, and predictable state management."
-  - Testing Culture: "A feature isn't 'done' until it's covered by meaningful unit or integration tests."
-```
+<p align="center">
+  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=jorbencas&show_icons=true&theme=radical&hide_border=true" alt="jorbencas stats" />
+  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorbencas&layout=compact&theme=radical&hide_border=true" alt="jorbencas top langs" />
+</p>
 
 ---
 
-### 💻 Tech Stack & Tools
+### 🤝 Contact
 
-| Frontend | Backend & Databases | DevOps & Testing |
-| :--- | :--- | :--- |
-| [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" width="22" height="22" valign="middle"/> TypeScript](https://github.com/jorbencas?tab=repositories&q=typescript) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" width="22" height="22" valign="middle"/> Node.js (Express)](https://github.com/jorbencas?tab=repositories&q=nodejs) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" width="22" height="22" valign="middle"/> Docker](https://github.com/jorbencas?tab=repositories&q=docker) |
-| [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="22" height="22" valign="middle"/> React / React Native](https://github.com/jorbencas?tab=repositories&q=react) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original.svg" width="22" height="22" valign="middle"/> PostgreSQL](https://github.com/jorbencas?tab=repositories&q=postgresql) | [<img src="https://www.vectorlogo.zone/logos/jestjsio/jestjsio-icon.svg" width="22" height="22" valign="middle"/> Jest](https://github.com/jorbencas?tab=repositories&q=jest) |
-| [<img src="https://angular.io/assets/images/logos/angular/angular.svg" width="22" height="22" valign="middle"/> Angular](https://github.com/jorbencas?tab=repositories&q=angular) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" width="22" height="22" valign="middle"/> MongoDB](https://github.com/jorbencas?tab=repositories&q=mongodb) | [<img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" width="22" height="22" valign="middle"/> Git & Actions](https://github.com/jorbencas?tab=repositories&q=github-actions) |
-| [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vuejs/vuejs-original.svg" width="22" height="22" valign="middle"/> Vue.js](https://github.com/jorbencas?tab=repositories&q=vuejs) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/csharp/csharp-original.svg" width="22" height="22" valign="middle"/> C# (.NET)](https://github.com/jorbencas?tab=repositories&q=csharp) | [<img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" width="22" height="22" valign="middle"/> Linux](https://github.com/jorbencas?tab=repositories&q=linux) |
-| [<img src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg" width="22" height="22" valign="middle"/> Tailwind CSS](https://github.com/jorbencas?tab=repositories&q=tailwindcss) | | |
+<p align="center">
+  <a href="https://blog-jorbencas.vercel.app/"><img src="https://img.shields.io/badge/Blog-jorbencas.vercel.app-FF5D01?style=for-the-badge&logo=astro" alt="Blog"></a>
+  <a href="https://github.com/jorbencas"><img src="https://img.shields.io/badge/GitHub-jorbencas-181717?style=for-the-badge&logo=github" alt="GitHub"></a>
+</p>
+
+<p align="center">
+  <em>Let's build something together.</em>
+</p>
 
 ---
 
-## 🤖 SYSTEM LOGS: CODE REVIEW & ANONYMOUS FEEDBACK
-*Have we worked together, or has my content been helpful to you? Inject your review into the database anonymously:*
-👉 [**[ OPEN NEW REVOLUTION TICKET ]**](https://github.com/jorbencas/jorbencas/issues/new?template=feedback.yml)
+### 💬 Anonymous Feedback
+
+*Have we worked together, or has my content been helpful to you? Leave a review:*
+👉 [**Leave Feedback**](https://github.com/jorbencas/jorbencas/issues/new?template=feedback.yml)
 
 <!-- START_FEEDBACK_WALL -->
 > "Prueba de Feedback con el githubactions" — **Anónimo** (jun 2026)
