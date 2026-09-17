@@ -14,13 +14,9 @@
   </pattern>
   <rect width="800" height="200" fill="url(#grid)" opacity="0.5"/>
   
-  <!-- Photo placeholder (circle) -->
+  <!-- Photo -->
   <circle cx="100" cy="100" r="62" fill="#0969da"/>
-  <circle cx="100" cy="100" r="60" fill="#d0d7de"/>
-  
-  <!-- User icon silhouette -->
-  <circle cx="100" cy="85" r="18" fill="#afb8c1"/>
-  <path d="M65 130 Q100 105 135 130" fill="#afb8c1"/>
+  <image href="https://avatars.githubusercontent.com/u/24507024?v=4" x="40" y="40" width="120" height="120" clip-path="url(#photo-clip)"/>
   
   <!-- Name -->
   <text x="200" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="bold" fill="#24292f">Jorge Beneyto Castelló</text>
