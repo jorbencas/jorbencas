@@ -17,7 +17,7 @@
   
   <!-- mBot Image -->
   <circle cx="100" cy="100" r="72" fill="#0969da"/>
-  <image href="https://raw.githubusercontent.com/jorbencas/jorbencas/master/mbot.png" x="30" y="30" width="140" height="140" clip-path="url(#mbot-clip)"/>
+  <image href="https://raw.githubusercontent.com/jorbencas/jorbencas/master/mbot.jpg" x="30" y="30" width="140" height="140" clip-path="url(#mbot-clip)"/>
   
   <!-- Name -->
   <text x="220" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="bold" fill="#24292f">Jorge Beneyto Castelló</text>
