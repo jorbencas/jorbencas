@@ -43,9 +43,9 @@
       <p><em>500+ sources → AI → Telegram + Email + Dashboard</em></p>
       <p>Full automation ecosystem: scrapes, summarizes with Gemini, and distributes via 3 channels. 16 GitHub Actions workflows running 24/7.</p>
       <p>
-        <img src="https://img.shields.io/badge/Python-3776AB?logo=python" alt="Python">
-        <img src="https://img.shields.io/badge/Gemini-4285F4?logo=google" alt="Gemini">
-        <img src="https://img.shields.io/badge/Telegram-26A5E4?logo=telegram" alt="Telegram">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
+        <img src="https://img.shields.io/badge/Gemini-4285F4?style=flat&logo=google&logoColor=white" alt="Gemini">
+        <img src="https://img.shields.io/badge/Telegram-26A5E4?style=flat&logo=telegram&logoColor=white" alt="Telegram">
       </p>
       <p><a href="https://github.com/jorbencas/test_githubActions">Repo</a> · <a href="https://jorbencasdownloaderdocument.surge.sh">Live</a></p>
     </td>
@@ -54,22 +54,22 @@
       <p><em>Twitch/YouTube → FFmpeg → Telegram</em></p>
       <p>Automated video recording and compression. 6 Docker containers, cron scheduling, zero manual intervention.</p>
       <p>
-        <img src="https://img.shields.io/badge/Docker-2496ED?logo=docker" alt="Docker">
-        <img src="https://img.shields.io/badge/FFmpeg-007808?logo=ffmpeg" alt="FFmpeg">
-        <img src="https://img.shields.io/badge/Python-3776AB?logo=python" alt="Python">
+        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white" alt="Docker">
+        <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat&logo=ffmpeg&logoColor=white" alt="FFmpeg">
+        <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white" alt="Python">
       </p>
-      <p><a href="https://github.com/jorbencas/devjobs">Repo</a> · <a href="https://blog-jorbencas.vercel.app/posts/instalacion-devjobs">Docs</a></p>
+      <p><a href="https://github.com/jorbencas/devjobs">Repo</a> · <a href="https://blog-jorbencas.vercel.app/posts/instalacion-devjobs">Live</a></p>
     </td>
     <td width="33%" valign="top">
       <h3>📰 Tech Blog</h3>
       <p><em>50+ step-by-step guides</em></p>
       <p>Technical writing on Docker, FFmpeg, Python, AI. Built with Astro, deployed on Vercel. Everything documented from scratch.</p>
       <p>
-        <img src="https://img.shields.io/badge/Astro-FF5D01?logo=astro" alt="Astro">
-        <img src="https://img.shields.io/badge/Vercel-000000?logo=vercel" alt="Vercel">
-        <img src="https://img.shields.io/badge/MDX-FCB32C?logo=mdx" alt="MDX">
+        <img src="https://img.shields.io/badge/Astro-FF5D01?style=flat&logo=astro&logoColor=white" alt="Astro">
+        <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white" alt="Vercel">
+        <img src="https://img.shields.io/badge/MDX-FCB32C?style=flat&logo=mdx&logoColor=white" alt="MDX">
       </p>
-      <p><a href="https://blog-jorbencas.vercel.app/">Visit</a></p>
+      <p><a href="https://blog-jorbencas.vercel.app/">Repo</a> · <a href="https://blog-jorbencas.vercel.app/">Live</a></p>
     </td>
   </tr>
 </table>
