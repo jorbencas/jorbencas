@@ -1,13 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
   <defs>
-    <linearGradient id="body-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#4FC3F7"/>
-      <stop offset="100%" style="stop-color:#0288D1"/>
-    </linearGradient>
-    <linearGradient id="visor-grad" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" style="stop-color:#1A237E"/>
-      <stop offset="100%" style="stop-color:#0D47A1"/>
-    </linearGradient>
+    <clipPath id="mbot-clip">
+      <circle cx="100" cy="100" r="70"/>
+    </clipPath>
   </defs>
   
   <!-- Background -->
@@ -20,43 +15,9 @@
   </pattern>
   <rect width="800" height="200" fill="url(#circuit)" opacity="0.3"/>
   
-  <!-- mBot Robot -->
-  <g transform="translate(60, 20)">
-    <!-- Body -->
-    <rect x="20" y="40" width="80" height="60" rx="10" fill="url(#body-grad)" stroke="#0277BD" stroke-width="2"/>
-    
-    <!-- Head -->
-    <rect x="30" y="10" width="60" height="40" rx="8" fill="url(#body-grad)" stroke="#0277BD" stroke-width="2"/>
-    
-    <!-- Visor/Eyes -->
-    <rect x="35" y="18" width="50" height="20" rx="4" fill="url(#visor-grad)"/>
-    <circle cx="48" cy="28" r="5" fill="#00E676"/>
-    <circle cx="68" cy="28" r="5" fill="#00E676"/>
-    <circle cx="48" cy="28" r="2" fill="white"/>
-    <circle cx="68" cy="28" r="2" fill="white"/>
-    
-    <!-- Antenna -->
-    <line x1="60" y1="10" x2="60" y2="0" stroke="#FFD600" stroke-width="3"/>
-    <circle cx="60" cy="0" r="4" fill="#FFD600"/>
-    
-    <!-- Wheels -->
-    <ellipse cx="30" cy="105" rx="12" ry="8" fill="#37474F"/>
-    <ellipse cx="90" cy="105" rx="12" ry="8" fill="#37474F"/>
-    <circle cx="30" cy="105" r="4" fill="#78909C"/>
-    <circle cx="90" cy="105" r="4" fill="#78909C"/>
-    
-    <!-- Ultrasonic sensor -->
-    <rect x="35" y="70" width="50" height="15" rx="3" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <circle cx="45" cy="77" r="4" fill="#30363d"/>
-    <circle cx="65" cy="77" r="4" fill="#30363d"/>
-    
-    <!-- LED strip -->
-    <rect x="25" y="95" width="70" height="5" rx="2" fill="#1A237E"/>
-    <circle cx="35" cy="97" r="2" fill="#FF1744"/>
-    <circle cx="50" cy="97" r="2" fill="#00E676"/>
-    <circle cx="65" cy="97" r="2" fill="#2979FF"/>
-    <circle cx="80" cy="97" r="2" fill="#FFEA00"/>
-  </g>
+  <!-- mBot Image -->
+  <circle cx="100" cy="100" r="72" fill="#58a6ff"/>
+  <image href="https://raw.githubusercontent.com/jorbencas/jorbencas/master/mbot.png" x="30" y="30" width="140" height="140" clip-path="url(#mbot-clip)"/>
   
   <!-- Name -->
   <text x="220" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="bold" fill="#f0f6fc">Jorge Beneyto Castelló</text>
