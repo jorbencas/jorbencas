@@ -24,7 +24,7 @@
 
 ---
 
-### 🚦 CI/CD STATUS
+### 🚦 CI/CD STATUS — [Tech Pulse](https://github.com/jorbencas/test_githubActions)
 
 ![Scraper](https://img.shields.io/github/actions/workflow/status/jorbencas/test_githubActions/scraper_workflow.yml?branch=master&style=flat-square&label=Scraper&logo=github)
 ![Tests](https://img.shields.io/github/actions/workflow/status/jorbencas/test_githubActions/tests.yml?branch=master&style=flat-square&label=Tests&logo=github)
