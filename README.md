@@ -111,15 +111,6 @@ principles:
 
 ---
 
-### 📊 GitHub Stats
-
-<p align="center">
-  <img width="48%" src="https://github-readme-stats.vercel.app/api?username=jorbencas&show_icons=true&theme=radical&hide_border=true" alt="jorbencas stats" />
-  <img width="48%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jorbencas&layout=compact&theme=radical&hide_border=true" alt="jorbencas top langs" />
-</p>
-
----
-
 ### 🤝 Contact
 
 <p align="center">
