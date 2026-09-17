@@ -24,14 +24,6 @@
 
 ---
 
-### 🔧 What I Built
-
-**Tech Pulse** — Full automation ecosystem: 16 GitHub Actions workflows scraping 500+ sources, processing with AI (Gemini), and distributing via Telegram, email, and a live dashboard. [Repo](https://github.com/jorbencas/test_githubActions) · [Live](https://jorbencasdownloaderdocument.surge.sh)
-
-**DevJobs Pipeline** — Automated video recording from Twitch/YouTube/Kick → FFmpeg compression → Telegram upload. 6 Docker containers, cron scheduling, auto-cleanup. [Repo](https://github.com/jorbencas/devjobs) · [Docs](https://blog-jorbencas.vercel.app/posts/instalacion-devjobs)
-
----
-
 ### 🚦 CI/CD STATUS — [Tech Pulse](https://github.com/jorbencas/test_githubActions)
 
 ![Scraper](https://img.shields.io/github/actions/workflow/status/jorbencas/test_githubActions/scraper_workflow.yml?branch=master&style=flat-square&label=Scraper&logo=github)
