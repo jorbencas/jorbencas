@@ -1,1 +1,51 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" fill="none" viewBox="0 0 800 200"><foreignObject width="100%" height="100%"><div xmlns="http://www.w3.org/1999/xhtml"><style>.blueprint{background:#f6f8fa;height:198px;border:1px solid #d0d7de;border-radius:6px;position:relative;overflow:hidden}.robot-isometric{position:absolute;left:50%;top:50%;width:160px;height:160px;margin-left:-80px;margin-top:-80px}.line-main,.line-sec{stroke-width:1.5;fill:none}.line-main{stroke:#0969da;stroke-dasharray:4 4}.line-sec{stroke:#afb8c1}.pin-active{fill:#0969da}</style><div class="blueprint"><svg style="position:absolute;width:100%;height:100%"><path d="M0 60h260l40 20h30" class="line-main"/><path d="M0 140h240l50-30h40M800 70H560l-50 25h-40" class="line-sec"/><path d="M800 130H540l-50-20h-20" class="line-main"/><circle cx="260" cy="60" r="3" class="pin-active"/><circle cx="540" cy="130" r="3" class="pin-active"/></svg><svg xmlns="http://www.w3.org/2000/svg" fill="none" class="robot-isometric" viewBox="0 0 100 100"><ellipse cx="22" cy="42" fill="#57606a" stroke="#afb8c1" rx="3" ry="8" transform="rotate(15 22 42)"/><path fill="#0969da" d="m25 65 40-20 25 7-52 30Z"/><circle cx="32" cy="74" r="2" fill="#f6f8fa"/><circle cx="42" cy="69" r="1.5" fill="#f6f8fa"/><path fill="#f6f8fa" d="m52 60 6-3v6l-6 3Z"/><path stroke="#9a7b1c" stroke-linecap="round" stroke-width="2.5" d="M50 52V40M36 60V46"/><path fill="rgba(255, 255, 255, 0.6)" stroke="#0969da" stroke-width="1.2" d="m32 44 36-18 20 8-42 22Z"/><path fill="#ffd166" d="m42 24.746 6-1.608v5l-6 1.608z"/><path fill="#06d6a0" d="m52 17.067 6-1.608v5l-6 1.608z"/><path fill="#118ab2" d="m62 9.387 6-1.608v5l-6 1.608z"/><path fill="#24292f" d="m18 52 17-8v12l-17 8Z"/><ellipse cx="22" cy="50" fill="#afb8c1" stroke="#fff" stroke-width=".7" rx="4" ry="5"/><circle cx="22" cy="50" r="1.5" fill="#24292f"/><ellipse cx="30" cy="46" fill="#afb8c1" stroke="#fff" stroke-width=".7" rx="4" ry="5"/><circle cx="30" cy="46" r="1.5" fill="#24292f"/><ellipse cx="78" cy="58" fill="#24292f" stroke="#57606a" stroke-width="1" rx="12" ry="24" transform="rotate(12 78 58)"/><ellipse cx="78" cy="58" fill="#fff" rx="7" ry="15" transform="rotate(12 78 58)"/><circle cx="78" cy="58" r="2" fill="#afb8c1"/><circle cx="75" cy="50" r="1" fill="#24292f"/><circle cx="81" cy="66" r="1" fill="#24292f"/><path fill="#24292f" stroke="#0969da" stroke-width=".5" d="m25 75 7.727-2.07 1.036 3.863-7.728 2.07z"/></svg></div></div></foreignObject></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="200" viewBox="0 0 800 200">
+  <defs>
+    <clipPath id="photo-clip">
+      <circle cx="100" cy="100" r="60"/>
+    </clipPath>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="200" fill="#f6f8fa" rx="6"/>
+  
+  <!-- Subtle grid pattern -->
+  <pattern id="grid" width="20" height="20" patternUnits="userSpaceOnUse">
+    <path d="M 20 0 L 0 0 0 20" fill="none" stroke="#e1e4e8" stroke-width="0.5"/>
+  </pattern>
+  <rect width="800" height="200" fill="url(#grid)" opacity="0.5"/>
+  
+  <!-- Photo placeholder (circle) -->
+  <circle cx="100" cy="100" r="62" fill="#0969da"/>
+  <circle cx="100" cy="100" r="60" fill="#d0d7de"/>
+  
+  <!-- User icon silhouette -->
+  <circle cx="100" cy="85" r="18" fill="#afb8c1"/>
+  <path d="M65 130 Q100 105 135 130" fill="#afb8c1"/>
+  
+  <!-- Name -->
+  <text x="200" y="80" font-family="system-ui, -apple-system, sans-serif" font-size="28" font-weight="bold" fill="#24292f">Jorge Beneyto Castelló</text>
+  
+  <!-- Title -->
+  <text x="200" y="110" font-family="system-ui, -apple-system, sans-serif" font-size="16" fill="#57606a">Full Stack Developer</text>
+  
+  <!-- Tech tags -->
+  <rect x="200" y="125" width="60" height="24" rx="12" fill="#0969da"/>
+  <text x="230" y="141" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="white" text-anchor="middle">Python</text>
+  
+  <rect x="270" y="125" width="70" height="24" rx="12" fill="#0969da"/>
+  <text x="305" y="141" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="white" text-anchor="middle">Docker</text>
+  
+  <rect x="350" y="125" width="80" height="24" rx="12" fill="#0969da"/>
+  <text x="390" y="141" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="white" text-anchor="middle">TypeScript</text>
+  
+  <rect x="440" y="125" width="70" height="24" rx="12" fill="#0969da"/>
+  <text x="475" y="141" font-family="system-ui, -apple-system, sans-serif" font-size="11" fill="white" text-anchor="middle">React</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="700" cy="40" r="30" fill="#0969da" opacity="0.1"/>
+  <circle cx="750" cy="160" r="20" fill="#0969da" opacity="0.1"/>
+  <circle cx="650" cy="150" r="15" fill="#0969da" opacity="0.1"/>
+  
+  <!-- Code bracket decoration -->
+  <text x="680" y="90" font-family="monospace" font-size="40" fill="#0969da" opacity="0.2">&lt;/&gt;</text>
+</svg>
