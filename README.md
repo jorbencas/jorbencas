@@ -102,7 +102,7 @@ principles:
 
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
-- [Refactor: viaje completo de mi SSIM duplicado a un módulo compartido](https://blog-jorbencas.vercel.app/posts/centralizar-ssim-duplicado-en-modulo-compartido)
+- [Refactor SOLID: del JavaScript monolítico a una arquitectura reactiva](https://blog-jorbencas.vercel.app/posts/centralizar-ssim-duplicado-en-modulo-compartido)
 - [Gestionar entornos virtuales de Python en Ubuntu con aliases](https://blog-jorbencas.vercel.app/posts/gestionar-venv-python-ubuntu)
 - [Inteligencia Artificial a nivel técnico: de los tokens al RAG, pasando por los LLM](https://blog-jorbencas.vercel.app/posts/fundamentos_de_ia_tecnica)
 - [Instalación del Ecosistema Devjobs: Pipeline Completo desde Cero](https://blog-jorbencas.vercel.app/posts/instalacion-devjobs)
