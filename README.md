@@ -3,7 +3,7 @@
   <strong>Full Stack Developer</strong> specialising in video pipelines, AI automation & real-time systems
 </p><div align="center">
 
-<img src="mbot.jpg" alt="Jorge's avatar" width="96" height="96" style="border-radius:50%">
+<img src="mbot.jpg" alt="Jorge (jorbencas)" width="96" height="96" style="border-radius:50%; border:3px solid #e1e4e8">
 
 </div>
 
