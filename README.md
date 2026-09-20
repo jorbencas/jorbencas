@@ -1,13 +1,11 @@
 <h1 align="center">Hi 👋, I'm Jorge Beneyto Castelló</h1>
 <p align="center">
   <strong>Full Stack Developer</strong> specialising in video pipelines, AI automation & real-time systems
-</p>
+</p><div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/jorbencas/jorbencas/master/banner-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/jorbencas/jorbencas/master/banner-light.svg">
-  <img alt="Jorge's mBot Banner" src="https://raw.githubusercontent.com/jorbencas/jorbencas/master/banner-light.svg" width="100%">
-</picture>
+<img src="mbot.jpg" alt="Jorge's avatar" width="96" height="96" style="border-radius:50%">
+
+</div>
 
 <p align="center">
   <a href="https://blog-jorbencas.vercel.app/" target="_blank"><strong>🌐 Visit my Personal Blog</strong></a>
