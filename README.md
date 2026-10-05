@@ -100,11 +100,11 @@ principles:
 
 ### 📝 Latest Blog Posts
 <!-- BLOG-POST-LIST:START -->
+- [🐧 Comandos Linux de Supervivencia: md5sum, rsync y compañía](https://blog-jorbencas.vercel.app/posts/comandos_linux_md5_rsync_consolidado)
 - [Instalación del Ecosistema Devjobs: Pipeline Completo desde Cero](https://blog-jorbencas.vercel.app/posts/instalacion-devjobs)
 - [Refactor SOLID: del JavaScript monolítico a una arquitectura reactiva](https://blog-jorbencas.vercel.app/posts/centralizar-ssim-duplicado-en-modulo-compartido)
 - [Gestionar entornos virtuales de Python en Ubuntu con aliases](https://blog-jorbencas.vercel.app/posts/gestionar-venv-python-ubuntu)
 - [Inteligencia Artificial a nivel técnico: de los tokens al RAG, pasando por los LLM](https://blog-jorbencas.vercel.app/posts/fundamentos_de_ia_tecnica)
-- [Instalación de FFmpeg + yt-dlp: Conversor de Vídeo y Pipeline de Compresión](https://blog-jorbencas.vercel.app/posts/instalacion-ffmpeg)
 <!-- BLOG-POST-LIST:END -->
 
 ---
